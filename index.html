@@ -5,41 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS/Flexbox-Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul>
-            <li><a href="#">Header Link One</a></li>
-            <li><a href="#">Header Link Two</a></li>
-            <li><a href="#">Header Link Three</a></li>
-        </ul>
-    </div>
-
-    <div class="presentation">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here, under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <!--img place holder in need-->
+        <div class="top"> 
+            <div class="logo">Header Logo</div>
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
+       
+        <div class="presentation">
+            <div class="block1"> 
+                <h1>This website is awesome</h1>
+                <p class="secondary">This website has some subtext that goes here, under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="one">Sign up</button>
+            </div>
+            <div class="block2">
+                this is a placeholeder for an image
+            </div>
+        </div>
     </div>
 
     <div class="main">
         <h2>Some random information.</h2>
-        <!--4 images in here-->
-        <p class="subtext">this is some subtext under an ilustration or image</p>
-        <p class="subtext">this is some subtext under an ilustration or image</p>
-        <p class="subtext">this is some subtext under an ilustration or image</p>
-        <p class="subtext">this is some subtext under an ilustration or image</p>
+        <div class="images">
+            <div>
+                <img src="plain.jpg" alt="plain">
+                <p class="subtext">this is some subtext under an ilustration or image</p>
+            </div>
+            <div>
+                <img src="plain.jpg" alt="plain">
+                <p class="subtext">this is some subtext under an ilustration or image</p>
+            </div>
+            <div>
+                <img src="plain.jpg" alt="plain">
+                <p class="subtext">this is some subtext under an ilustration or image</p>
+            </div>
+            <div>
+                <img src="plain.jpg" alt="plain">
+                <p class="subtext">this is some subtext under an ilustration or image</p>
+            </div>
+        </div>
+        
     </div>
 
     <div class="quote">
-        <p><em>This is an inspiring quote, or a testimonial from a costumer. Maybe it's just filling up space, or maybe people will acutally read it. Who knows? All I know is that looks nice.</em></p>
-        <p><strong>-Thor, God of Thunder</strong></p>
+        <p class="qtext">This is an inspiring quote, or a testimonial from a costumer. Maybe it's just filling up space, or maybe people will acutally read it. Who knows? All I know is that looks nice.</p>
+        <p class="author"><strong>-Thor, God of Thunder</strong></p>
     </div>
 
+    <div class="box">
+        <div class="bold">
+            Call to action! It's time!
+        </div>
+        <div class="text">
+            Sign up for our product by clicking the button right over there!
+        </div>
+        <button class="two">Sign up</button>
+    </div>
 
+    <div class="footer">
+        Copyright © The Odin Project 2021
+    </div>
     
 </body>
 </html>
